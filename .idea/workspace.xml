@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3da3442-bb90-4d34-960b-c9bca7fc56db" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/microfrontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gyms/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/managements/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/managements/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/managements/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/managements/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/managements/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/microfrontend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/microfrontend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodybuilders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bodybuilders/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodybuilders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bodybuilders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodybuilders/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/coaches/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/coaches/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coaches/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/coaches/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gyms/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gyms/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyms/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/managements/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/managements/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,11 +29,19 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Setup Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 1
 }]]></component>
   <component name="ProjectId" id="2bcejNVidkkXGOKFVhusNmn6d0q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,21 +52,32 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Django Server.managements.executor": "Run",
+    "Django Server.managments.executor": "Run",
     "Django Server.microfrontend.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/mohammadgoodarzi/Desktop/project-django/learn-django-microfrontend/microfrontend",
+    "last_opened_file_path": "/home/mohammadgoodarzi/Desktop/project-django/learn-django-microfrontend/microfrontend/manage.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="runserver" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
       <module name="microfrontend" />
@@ -92,10 +111,11 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="managements.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="SDK_NAME" value="Python 3.11 (microfrontend) (2)" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -114,7 +134,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
       </set>
     </attachedChunks>
   </component>
@@ -126,8 +146,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1706518929082</updated>
-      <workItem from="1706518940332" duration="3442000" />
+      <workItem from="1706518940332" duration="16047000" />
+      <workItem from="1706539076102" duration="531000" />
+      <workItem from="1706539620271" duration="492000" />
+      <workItem from="1706541596699" duration="7965000" />
     </task>
+    <task id="LOCAL-00001" summary="add all app in project">
+      <option name="closed" value="true" />
+      <created>1706524245619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706524245619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add all app in project">
+      <option name="closed" value="true" />
+      <created>1706524254494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706524254494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="extends model user in app accounts">
+      <option name="closed" value="true" />
+      <created>1706527425495</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706527425495</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +191,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add all app in project" />
+    <MESSAGE value="extends model user in app accounts" />
+    <option name="LAST_COMMIT_MESSAGE" value="extends model user in app accounts" />
   </component>
 </project>

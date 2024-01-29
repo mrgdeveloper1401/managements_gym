@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     "gyms.apps.GymsConfig",
     'bodybuilders.apps.BodybuildersConfig',
     'coaches.apps.CoachesConfig',
-    'core.apps.CoreConfig'
+    'core.apps.CoreConfig',
 
 ]
 

@@ -4,7 +4,7 @@ from django_jalali.db import models as jmodels
 
 
 class CreateAt(models.Model):
-    created_at = jmodels.jDateTimeField(auto_now_add=True)
+    created_at = jmodels.jDateTimeField(auto_now_add=True, blank=True, null=True)
 
     class Meta:
         abstract = True
@@ -12,8 +12,8 @@ class CreateAt(models.Model):
         verbose_name_plural = _('Created')
 
 
-class UpdateAt(CreateAt):
-    updated_at = jmodels.jDateTimeField(auto_now=True)
+class UpdateAt(models.Model):
+    updated_at = jmodels.jDateTimeField(auto_now=True, blank=True, null=True)
 
     class Meta:
         abstract = True

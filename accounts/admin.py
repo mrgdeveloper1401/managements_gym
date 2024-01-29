@@ -49,3 +49,4 @@ class UserNotificationAdmin(admin.ModelAdmin):
     list_filter = ('is_published',)
     list_editable = ('is_published',)
     list_per_page = 20
+    raw_id_fields = ('user',)
