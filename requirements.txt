@@ -1,0 +1,6 @@
+django==5.0.1
+pillow==10.2.0
+psycopg2-binary==2.9.9
+setuptools~=69.0.3
+python-dotenv~=1.0.1
+django-debug-toolbar==4.2.0
