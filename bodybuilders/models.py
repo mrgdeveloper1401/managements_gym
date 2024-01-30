@@ -16,17 +16,23 @@ class BodyBuilding(CreateAt, UpdateAt):
     birth_day = jmodels.jDateField()
     nation_code = models.CharField(max_length=11, unique=True)
     is_active = models.BooleanField(default=True)
-    is_insurance = models.BooleanField(default=False)
+    is_insurance = models.BooleanField(default=False,
+                                       help_text='if insurance is true please complete start date and end date')
+    insurance_start_date = jmodels.jDateField(blank=True, null=True,
+                                              help_text='If you have insured yourself, fill in this date // start date')
+    insurance_end_date = jmodels.jDateField(blank=True, null=True,
+                                            help_text='If you have insured yourself, fill in this date // end date')
 
     @property
     def bmi(self):
         w = self.wight
         h = self.height
-        bmi = w / (pow(h,2))
-        return bmi
+        bmi = w / (pow(h, 2))
+        round_bmi = round(bmi, 2)
+        return round_bmi
 
     def __str__(self):
-        return self.user
+        return self.user.username
 
     class Meta:
         db_table = 'body_building'

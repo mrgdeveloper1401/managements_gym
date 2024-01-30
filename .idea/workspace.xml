@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3da3442-bb90-4d34-960b-c9bca7fc56db" name="Changes" comment="">
+    <list default="true" id="b3da3442-bb90-4d34-960b-c9bca7fc56db" name="Changes" comment="add package django-debug-toolbar">
+      <change afterPath="$PROJECT_DIR$/bodybuilders/migrations/0002_bodybuilding_insurance_end_date_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gyms/migrations/0002_gym_explain_gym.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gyms/migrations/0003_remove_gymtime_explain_gym_time_and_more.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/managements/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/managements/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/managements/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/managements/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bodybuilders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bodybuilders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyms/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/gyms/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gyms/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/gyms/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +142,7 @@
       <workItem from="1706539076102" duration="531000" />
       <workItem from="1706539620271" duration="492000" />
       <workItem from="1706541596699" duration="7965000" />
-      <workItem from="1706599310472" duration="7971000" />
+      <workItem from="1706599310472" duration="13574000" />
     </task>
     <task id="LOCAL-00001" summary="add all app in project">
       <option name="closed" value="true" />
@@ -166,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706527425495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add package django-debug-toolbar">
+      <option name="closed" value="true" />
+      <created>1706627337022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706627337022</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +196,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add all app in project" />
     <MESSAGE value="extends model user in app accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="extends model user in app accounts" />
+    <MESSAGE value="add package django-debug-toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add package django-debug-toolbar" />
   </component>
 </project>

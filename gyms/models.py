@@ -10,6 +10,7 @@ class Gym(CreateAt, UpdateAt):
     slug = models.SlugField(unique=True)
     number_of_machine = models.PositiveSmallIntegerField(_('Number of machine'))
     is_active = models.BooleanField(default=False)
+    explain_gym = models.TextField(blank=True, null=True)
 
     def __str__(self):
         return self.en_gym_name
@@ -24,13 +25,17 @@ class GymTime(CreateAt, UpdateAt):
     gym = models.OneToOneField('Gym', on_delete=models.CASCADE, related_name='gym_time')
     male_opening_time = models.TimeField()
     male_closing_time = models.TimeField()
+    explain_male_gym_time = models.TextField(help_text="Explain what days they can come to the club",
+                                             blank=True, null=True)
     female_opening_time = models.TimeField()
     female_closing_time = models.TimeField()
-    explain_gym_time = models.TextField(_('explain gym time'), blank=True, null=True)
+    explain_female_gym_time = models.TextField(_('explain gym time'),
+                                               help_text='Explain what days they can come to the club',
+                                               blank=True, null=True)
     is_active = models.BooleanField(default=True)
 
     def __str__(self):
-        return self.gym
+        return self.gym.gym_name
 
     class Meta:
         db_table = "gym_time"
