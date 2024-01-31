@@ -1,6 +1,7 @@
 from django.db import models
 from django_jalali.db import models as jmodels
 from django.utils.translation import gettext_lazy as _
+from django.conf import settings
 from core.models import CreateAt, UpdateAt
 
 
@@ -9,7 +10,7 @@ class BodyBuilding(CreateAt, UpdateAt):
         male = 'male',
         female = 'female'
 
-    user = models.OneToOneField('accounts.Users', on_delete=models.PROTECT, related_name="body_building")
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.PROTECT, related_name="body_building")
     gender = models.CharField(max_length=6, choices=GenderChoices.choices, default=GenderChoices.male)
     height = models.DecimalField(decimal_places=2, max_digits=4, blank=True, null=True)
     wight = models.DecimalField(decimal_places=2, max_digits=5, blank=True, null=True)

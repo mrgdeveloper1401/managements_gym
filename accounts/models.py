@@ -1,14 +1,15 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.utils.translation import gettext_lazy as _
+from django.conf import settings
 # import app django
 from core.models import CreateAt, UpdateAt
 from .managers import UsersManager
 
 
 class Users(AbstractUser):
-    email = models.EmailField(unique=True, max_length=254, blank=True)
-    mobile_phone = models.CharField(max_length=15, unique=True)
+    email = models.EmailField(_('email'), unique=True, max_length=254, blank=True)
+    mobile_phone = models.CharField(_('mobile phone'), max_length=15, unique=True)
 
     objects = UsersManager()
 
@@ -26,10 +27,10 @@ class Users(AbstractUser):
 
 
 class UserNotification(CreateAt):
-    user = models.ForeignKey(Users, on_delete=models.CASCADE, related_name='notifications')
-    title_notification = models.CharField(max_length=254)
-    body_notification = models.TextField()
-    is_published = models.BooleanField(default=True)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='notifications', verbose_name=_('user'))
+    title_notification = models.CharField(_('title notification'), max_length=254)
+    body_notification = models.TextField(_('body notification'))
+    is_published = models.BooleanField(_('publish'), default=True)
 
     def __str__(self):
         return f'{self.user} -- {self.created_at}'

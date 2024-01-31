@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'bodybuilders.apps.BodybuildersConfig',
     'coaches.apps.CoachesConfig',
     'core.apps.CoreConfig',
+    "sites.apps.SitesConfig",
+    "blogs.apps.BlogsConfig"
 
 ]
 

@@ -19,3 +19,11 @@ class UpdateAt(models.Model):
         abstract = True
         verbose_name = _('Updated At')
         verbose_name_plural = _('Updated')
+
+
+class DeletedAt(models.Model):
+    deleted_at = jmodels.jDateTimeField(blank=True, null=True)
+    is_deleted = models.BooleanField(blank=True, null=True, editable=False)
+
+    class Meta:
+        abstract = True
